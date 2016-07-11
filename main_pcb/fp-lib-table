@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ksink_footprint)(type KiCad)(uri ${KIPRJMOD}/ksink_footprint.pretty)(options "")(descr ""))
+)

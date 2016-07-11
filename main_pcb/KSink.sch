@@ -1,0 +1,1267 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ksink_pcb_lib
+LIBS:KSink-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP23017 U1
+U 1 1 573E3714
+P 2350 1350
+F 0 "U1" H 2700 600 60  0000 C CNN
+F 1 "MCP23017" V 2350 1350 60  0000 C CNN
+F 2 "ksink_footprint:MCP23017_DIP" H 2150 1850 60  0001 C CNN
+F 3 "" H 2150 1850 60  0000 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+Text Label 3200 1400 2    60   ~ 0
+COL0
+Text Label 3200 1300 2    60   ~ 0
+COL1
+Text Label 3200 1200 2    60   ~ 0
+COL2
+Text Label 3200 1100 2    60   ~ 0
+COL3
+Text Label 3200 1000 2    60   ~ 0
+COL4
+Text Label 3200 900  2    60   ~ 0
+COL5
+Text Label 3200 800  2    60   ~ 0
+COL6
+Text Label 3200 700  2    60   ~ 0
+COL7
+Text Label 1500 800  0    60   ~ 0
+COL8
+Text Label 1500 700  0    60   ~ 0
+COL9
+Text Label 1500 1300 0    60   ~ 0
+ROW0
+Text Label 1500 1200 0    60   ~ 0
+ROW1
+Text Label 1500 1100 0    60   ~ 0
+ROW2
+Text Label 1500 1000 0    60   ~ 0
+ROW3
+Text Label 1500 1900 0    60   ~ 0
+SDA_1
+Text Label 1500 1800 0    60   ~ 0
+SCL_1
+$Comp
+L GND #PWR01
+U 1 1 573E3D85
+P 1500 1600
+F 0 "#PWR01" H 1500 1350 50  0001 C CNN
+F 1 "GND" H 1500 1450 50  0000 C CNN
+F 2 "" H 1500 1600 50  0000 C CNN
+F 3 "" H 1500 1600 50  0000 C CNN
+	1    1500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L MCP23017 U2
+U 1 1 573F69F7
+P 4550 1350
+F 0 "U2" H 4900 600 60  0000 C CNN
+F 1 "MCP23017" V 4550 1350 60  0000 C CNN
+F 2 "ksink_footprint:MCP23017_DIP" H 4350 1850 60  0001 C CNN
+F 3 "" H 4350 1850 60  0000 C CNN
+	1    4550 1350
+	1    0    0    -1  
+$EndComp
+Text Label 5400 700  2    60   ~ 0
+COL0
+Text Label 5400 800  2    60   ~ 0
+COL1
+Text Label 5400 900  2    60   ~ 0
+COL2
+Text Label 5400 1000 2    60   ~ 0
+COL3
+Text Label 5400 1100 2    60   ~ 0
+COL4
+Text Label 5400 1200 2    60   ~ 0
+COL5
+Text Label 5400 1300 2    60   ~ 0
+COL6
+Text Label 5400 1400 2    60   ~ 0
+COL7
+Text Label 3700 1300 0    60   ~ 0
+COL8
+Text Label 3700 1400 0    60   ~ 0
+COL9
+Text Label 3700 800  0    60   ~ 0
+ROW0
+Text Label 3700 900  0    60   ~ 0
+ROW1
+Text Label 3700 1000 0    60   ~ 0
+ROW2
+Text Label 3700 1100 0    60   ~ 0
+ROW3
+Text Label 1850 2250 3    60   ~ 0
+COL0
+Text Label 2500 2250 3    60   ~ 0
+COL1
+Text Label 5750 2250 3    60   ~ 0
+COL6
+Text Label 6400 2250 3    60   ~ 0
+COL7
+Text Label 7050 2250 3    60   ~ 0
+COL8
+Text Label 7700 2250 3    60   ~ 0
+COL9
+$Comp
+L CONN_01X04 P1
+U 1 1 5743C085
+P 6300 850
+F 0 "P1" H 6300 1100 50  0000 C CNN
+F 1 "CONN_01X04" V 6400 850 50  0000 C CNN
+F 2 "ksink_footprint:CONN_4X1" H 6300 850 50  0001 C CNN
+F 3 "" H 6300 850 50  0000 C CNN
+	1    6300 850 
+	1    0    0    -1  
+$EndComp
+Text Label 5800 1000 0    60   ~ 0
+SDA_1
+Text Label 5800 900  0    60   ~ 0
+SCL_1
+$Comp
+L GND #PWR02
+U 1 1 5743CCDC
+P 5800 800
+F 0 "#PWR02" H 5800 550 50  0001 C CNN
+F 1 "GND" H 5800 650 50  0000 C CNN
+F 2 "" H 5800 800 50  0000 C CNN
+F 3 "" H 5800 800 50  0000 C CNN
+	1    5800 800 
+	0    1    1    0   
+$EndComp
+Text Label 1500 1500 0    60   ~ 0
+VDD
+Text Label 3200 1700 2    60   ~ 0
+VDD
+Text Label 5800 700  0    60   ~ 0
+VDD
+$Comp
+L CMX S1
+U 1 1 5740E18E
+P 2250 2800
+F 0 "S1" H 2200 2650 60  0000 C CNN
+F 1 "CMX" H 2250 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2250 2800 60  0001 C CNN
+F 3 "" H 2250 2800 60  0000 C CNN
+	1    2250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S2
+U 1 1 5740EBD5
+P 2250 3400
+F 0 "S2" H 2200 3250 60  0000 C CNN
+F 1 "CMX" H 2250 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2250 3400 60  0001 C CNN
+F 3 "" H 2250 3400 60  0000 C CNN
+	1    2250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S8
+U 1 1 574101E3
+P 3550 2800
+F 0 "S8" H 3500 2650 60  0000 C CNN
+F 1 "CMX" H 3550 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 3550 2800 60  0001 C CNN
+F 3 "" H 3550 2800 60  0000 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S9
+U 1 1 574102CD
+P 3550 3400
+F 0 "S9" H 3500 3250 60  0000 C CNN
+F 1 "CMX" H 3550 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 3550 3400 60  0001 C CNN
+F 3 "" H 3550 3400 60  0000 C CNN
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S10
+U 1 1 5741037D
+P 3550 4000
+F 0 "S10" H 3500 3850 60  0000 C CNN
+F 1 "CMX" H 3550 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 3550 4000 60  0001 C CNN
+F 3 "" H 3550 4000 60  0000 C CNN
+	1    3550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S11
+U 1 1 574105D4
+P 3550 4600
+F 0 "S11" H 3500 4450 60  0000 C CNN
+F 1 "CMX" H 3550 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 3550 4600 60  0001 C CNN
+F 3 "" H 3550 4600 60  0000 C CNN
+	1    3550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S12
+U 1 1 57410690
+P 3550 5200
+F 0 "S12" H 3500 5050 60  0000 C CNN
+F 1 "CMX" H 3550 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 3550 5200 60  0001 C CNN
+F 3 "" H 3550 5200 60  0000 C CNN
+	1    3550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S3
+U 1 1 574116B8
+P 2900 2800
+F 0 "S3" H 2850 2650 60  0000 C CNN
+F 1 "CMX" H 2900 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2900 2800 60  0001 C CNN
+F 3 "" H 2900 2800 60  0000 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S4
+U 1 1 574116BE
+P 2900 3400
+F 0 "S4" H 2850 3250 60  0000 C CNN
+F 1 "CMX" H 2900 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2900 3400 60  0001 C CNN
+F 3 "" H 2900 3400 60  0000 C CNN
+	1    2900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S5
+U 1 1 574116C4
+P 2900 4000
+F 0 "S5" H 2850 3850 60  0000 C CNN
+F 1 "CMX" H 2900 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2900 4000 60  0001 C CNN
+F 3 "" H 2900 4000 60  0000 C CNN
+	1    2900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S6
+U 1 1 574116CA
+P 2900 4600
+F 0 "S6" H 2850 4450 60  0000 C CNN
+F 1 "CMX" H 2900 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2900 4600 60  0001 C CNN
+F 3 "" H 2900 4600 60  0000 C CNN
+	1    2900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S7
+U 1 1 574116D0
+P 2900 5200
+F 0 "S7" H 2850 5050 60  0000 C CNN
+F 1 "CMX" H 2900 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 2900 5200 60  0001 C CNN
+F 3 "" H 2900 5200 60  0000 C CNN
+	1    2900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S13
+U 1 1 5741192C
+P 4200 2800
+F 0 "S13" H 4150 2650 60  0000 C CNN
+F 1 "CMX" H 4200 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4200 2800 60  0001 C CNN
+F 3 "" H 4200 2800 60  0000 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S14
+U 1 1 57411932
+P 4200 3400
+F 0 "S14" H 4150 3250 60  0000 C CNN
+F 1 "CMX" H 4200 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4200 3400 60  0001 C CNN
+F 3 "" H 4200 3400 60  0000 C CNN
+	1    4200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S15
+U 1 1 57411938
+P 4200 4000
+F 0 "S15" H 4150 3850 60  0000 C CNN
+F 1 "CMX" H 4200 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4200 4000 60  0001 C CNN
+F 3 "" H 4200 4000 60  0000 C CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S16
+U 1 1 5741193E
+P 4200 4600
+F 0 "S16" H 4150 4450 60  0000 C CNN
+F 1 "CMX" H 4200 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4200 4600 60  0001 C CNN
+F 3 "" H 4200 4600 60  0000 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S17
+U 1 1 57411944
+P 4200 5200
+F 0 "S17" H 4150 5050 60  0000 C CNN
+F 1 "CMX" H 4200 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4200 5200 60  0001 C CNN
+F 3 "" H 4200 5200 60  0000 C CNN
+	1    4200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S18
+U 1 1 57411A98
+P 4850 2800
+F 0 "S18" H 4800 2650 60  0000 C CNN
+F 1 "CMX" H 4850 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4850 2800 60  0001 C CNN
+F 3 "" H 4850 2800 60  0000 C CNN
+	1    4850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S19
+U 1 1 57411A9E
+P 4850 3400
+F 0 "S19" H 4800 3250 60  0000 C CNN
+F 1 "CMX" H 4850 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4850 3400 60  0001 C CNN
+F 3 "" H 4850 3400 60  0000 C CNN
+	1    4850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S20
+U 1 1 57411AA4
+P 4850 4000
+F 0 "S20" H 4800 3850 60  0000 C CNN
+F 1 "CMX" H 4850 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4850 4000 60  0001 C CNN
+F 3 "" H 4850 4000 60  0000 C CNN
+	1    4850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S21
+U 1 1 57411AAA
+P 4850 4600
+F 0 "S21" H 4800 4450 60  0000 C CNN
+F 1 "CMX" H 4850 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4850 4600 60  0001 C CNN
+F 3 "" H 4850 4600 60  0000 C CNN
+	1    4850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S22
+U 1 1 57411AB0
+P 4850 5200
+F 0 "S22" H 4800 5050 60  0000 C CNN
+F 1 "CMX" H 4850 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 4850 5200 60  0001 C CNN
+F 3 "" H 4850 5200 60  0000 C CNN
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S23
+U 1 1 57411D38
+P 5500 2800
+F 0 "S23" H 5450 2650 60  0000 C CNN
+F 1 "CMX" H 5500 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 5500 2800 60  0001 C CNN
+F 3 "" H 5500 2800 60  0000 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S24
+U 1 1 57411D3E
+P 5500 3400
+F 0 "S24" H 5450 3250 60  0000 C CNN
+F 1 "CMX" H 5500 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 5500 3400 60  0001 C CNN
+F 3 "" H 5500 3400 60  0000 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S25
+U 1 1 57411D44
+P 5500 4000
+F 0 "S25" H 5450 3850 60  0000 C CNN
+F 1 "CMX" H 5500 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 5500 4000 60  0001 C CNN
+F 3 "" H 5500 4000 60  0000 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S26
+U 1 1 57411D4A
+P 5500 4600
+F 0 "S26" H 5450 4450 60  0000 C CNN
+F 1 "CMX" H 5500 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 5500 4600 60  0001 C CNN
+F 3 "" H 5500 4600 60  0000 C CNN
+	1    5500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S27
+U 1 1 57411D50
+P 5500 5200
+F 0 "S27" H 5450 5050 60  0000 C CNN
+F 1 "CMX" H 5500 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 5500 5200 60  0001 C CNN
+F 3 "" H 5500 5200 60  0000 C CNN
+	1    5500 5200
+	1    0    0    -1  
+$EndComp
+Text Label 3150 2250 3    60   ~ 0
+COL2
+Text Label 3800 2250 3    60   ~ 0
+COL3
+Text Label 4450 2250 3    60   ~ 0
+COL4
+Text Label 5100 2250 3    60   ~ 0
+COL5
+$Comp
+L CMX S28
+U 1 1 57412E4D
+P 6150 2800
+F 0 "S28" H 6100 2650 60  0000 C CNN
+F 1 "CMX" H 6150 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6150 2800 60  0001 C CNN
+F 3 "" H 6150 2800 60  0000 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S29
+U 1 1 57412E53
+P 6150 3400
+F 0 "S29" H 6100 3250 60  0000 C CNN
+F 1 "CMX" H 6150 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6150 3400 60  0001 C CNN
+F 3 "" H 6150 3400 60  0000 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S30
+U 1 1 57412E59
+P 6150 4000
+F 0 "S30" H 6100 3850 60  0000 C CNN
+F 1 "CMX" H 6150 4300 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6150 4000 60  0001 C CNN
+F 3 "" H 6150 4000 60  0000 C CNN
+	1    6150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S31
+U 1 1 57412E5F
+P 6150 4600
+F 0 "S31" H 6100 4450 60  0000 C CNN
+F 1 "CMX" H 6150 4900 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6150 4600 60  0001 C CNN
+F 3 "" H 6150 4600 60  0000 C CNN
+	1    6150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S32
+U 1 1 57412FDD
+P 6800 2800
+F 0 "S32" H 6750 2650 60  0000 C CNN
+F 1 "CMX" H 6800 3100 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6800 2800 60  0001 C CNN
+F 3 "" H 6800 2800 60  0000 C CNN
+	1    6800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S33
+U 1 1 57412FE3
+P 6800 3400
+F 0 "S33" H 6750 3250 60  0000 C CNN
+F 1 "CMX" H 6800 3700 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6800 3400 60  0001 C CNN
+F 3 "" H 6800 3400 60  0000 C CNN
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S34
+U 1 1 574130DD
+P 6800 4550
+F 0 "S34" H 6750 4400 60  0000 C CNN
+F 1 "CMX" H 6800 4850 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6800 4550 60  0001 C CNN
+F 3 "" H 6800 4550 60  0000 C CNN
+	1    6800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S36
+U 1 1 574133AD
+P 7450 2750
+F 0 "S36" H 7400 2600 60  0000 C CNN
+F 1 "CMX" H 7450 3050 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 7450 2750 60  0001 C CNN
+F 3 "" H 7450 2750 60  0000 C CNN
+	1    7450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S37
+U 1 1 574133B3
+P 7450 3350
+F 0 "S37" H 7400 3200 60  0000 C CNN
+F 1 "CMX" H 7450 3650 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 7450 3350 60  0001 C CNN
+F 3 "" H 7450 3350 60  0000 C CNN
+	1    7450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S38
+U 1 1 574133B9
+P 7450 3950
+F 0 "S38" H 7400 3800 60  0000 C CNN
+F 1 "CMX" H 7450 4250 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 7450 3950 60  0001 C CNN
+F 3 "" H 7450 3950 60  0000 C CNN
+	1    7450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S39
+U 1 1 574133BF
+P 7450 4550
+F 0 "S39" H 7400 4400 60  0000 C CNN
+F 1 "CMX" H 7450 4850 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 7450 4550 60  0001 C CNN
+F 3 "" H 7450 4550 60  0000 C CNN
+	1    7450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S40
+U 1 1 574133C5
+P 6800 5200
+F 0 "S40" H 6750 5050 60  0000 C CNN
+F 1 "CMX" H 6800 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6800 5200 60  0001 C CNN
+F 3 "" H 6800 5200 60  0000 C CNN
+	1    6800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S41
+U 1 1 574135C4
+P 8100 2750
+F 0 "S41" H 8050 2600 60  0000 C CNN
+F 1 "CMX" H 8100 3050 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 8100 2750 60  0001 C CNN
+F 3 "" H 8100 2750 60  0000 C CNN
+	1    8100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S42
+U 1 1 574135CA
+P 8100 3350
+F 0 "S42" H 8050 3200 60  0000 C CNN
+F 1 "CMX" H 8100 3650 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 8100 3350 60  0001 C CNN
+F 3 "" H 8100 3350 60  0000 C CNN
+	1    8100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S43
+U 1 1 574135D0
+P 8100 3950
+F 0 "S43" H 8050 3800 60  0000 C CNN
+F 1 "CMX" H 8100 4250 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 8100 3950 60  0001 C CNN
+F 3 "" H 8100 3950 60  0000 C CNN
+	1    8100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S44
+U 1 1 574135D6
+P 8100 4550
+F 0 "S44" H 8050 4400 60  0000 C CNN
+F 1 "CMX" H 8100 4850 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 8100 4550 60  0001 C CNN
+F 3 "" H 8100 4550 60  0000 C CNN
+	1    8100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S45
+U 1 1 574135DC
+P 7450 5200
+F 0 "S45" H 7400 5050 60  0000 C CNN
+F 1 "CMX" H 7450 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 7450 5200 60  0001 C CNN
+F 3 "" H 7450 5200 60  0000 C CNN
+	1    7450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CMX S35
+U 1 1 574130E3
+P 6150 5200
+F 0 "S35" H 6100 5050 60  0000 C CNN
+F 1 "CMX" H 6150 5500 60  0000 C CNN
+F 2 "ksink_footprint:CMX" H 6150 5200 60  0001 C CNN
+F 3 "" H 6150 5200 60  0000 C CNN
+	1    6150 5200
+	1    0    0    -1  
+$EndComp
+Text Label 1500 5400 0    60   ~ 0
+ROW4
+Text Label 1500 4800 0    60   ~ 0
+ROW3
+Text Label 1500 4200 0    60   ~ 0
+ROW2
+Text Label 1500 3600 0    60   ~ 0
+ROW1
+Text Label 1500 3000 0    60   ~ 0
+ROW0
+Text Label 1500 900  0    60   ~ 0
+ROW4
+Text Label 3700 1200 0    60   ~ 0
+ROW4
+Text Label 3700 1800 0    60   ~ 0
+SCL_2
+Text Label 3700 1900 0    60   ~ 0
+SDA_2
+Text Label 5400 1700 2    60   ~ 0
+VDD
+Text Label 3200 2000 2    60   ~ 0
+GND
+Text Label 3200 1900 2    60   ~ 0
+A1_1
+Text Label 3200 1800 2    60   ~ 0
+A2_1
+$Comp
+L CONN_01X04 P2
+U 1 1 57425E48
+P 7200 840
+F 0 "P2" H 7200 1090 50  0000 C CNN
+F 1 "CONN_01X04" V 7300 840 50  0000 C CNN
+F 2 "ksink_footprint:CONN_4X1" H 7200 840 50  0001 C CNN
+F 3 "" H 7200 840 50  0000 C CNN
+	1    7200 840 
+	1    0    0    -1  
+$EndComp
+Text Label 6700 990  0    60   ~ 0
+SDA_2
+Text Label 6700 890  0    60   ~ 0
+SCL_2
+$Comp
+L GND #PWR03
+U 1 1 57425E50
+P 6700 790
+F 0 "#PWR03" H 6700 540 50  0001 C CNN
+F 1 "GND" H 6700 640 50  0000 C CNN
+F 2 "" H 6700 790 50  0000 C CNN
+F 3 "" H 6700 790 50  0000 C CNN
+	1    6700 790 
+	0    1    1    0   
+$EndComp
+Text Label 6700 690  0    60   ~ 0
+VDD
+Text Label 5400 1900 2    60   ~ 0
+A1_2
+Text Label 5400 1800 2    60   ~ 0
+A2_2
+Text Label 3700 1500 0    60   ~ 0
+VDD
+$Comp
+L GND #PWR04
+U 1 1 57426774
+P 3700 1600
+F 0 "#PWR04" H 3700 1350 50  0001 C CNN
+F 1 "GND" H 3700 1450 50  0000 C CNN
+F 2 "" H 3700 1600 50  0000 C CNN
+F 3 "" H 3700 1600 50  0000 C CNN
+	1    3700 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2000 3200 2000
+Wire Wire Line
+	2950 1900 3200 1900
+Wire Wire Line
+	2950 1800 3200 1800
+Wire Wire Line
+	7000 990  6700 990 
+Wire Wire Line
+	7000 890  6700 890 
+Wire Wire Line
+	7000 790  6700 790 
+Wire Wire Line
+	7000 690  6700 690 
+Wire Wire Line
+	5150 1900 5400 1900
+Wire Wire Line
+	5150 1800 5400 1800
+Wire Wire Line
+	5150 2000 5400 2000
+Wire Wire Line
+	3950 1800 3700 1800
+Wire Wire Line
+	3950 1900 3700 1900
+Wire Wire Line
+	1750 900  1500 900 
+Wire Wire Line
+	3950 1200 3700 1200
+Connection ~ 5750 4650
+Wire Wire Line
+	5750 5250 5850 5250
+Connection ~ 5850 5400
+Wire Wire Line
+	5850 5000 5850 5400
+Wire Wire Line
+	1500 5400 7150 5400
+Wire Wire Line
+	7700 2250 7700 4600
+Wire Wire Line
+	1500 3000 7800 3000
+Wire Wire Line
+	1500 3600 7800 3600
+Wire Wire Line
+	1500 4200 7800 4200
+Wire Wire Line
+	1500 4800 7800 4800
+Connection ~ 3250 3600
+Wire Wire Line
+	3250 3600 3250 3200
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 3600 2600 3200
+Connection ~ 1950 3600
+Wire Wire Line
+	1950 3200 1950 3600
+Connection ~ 5200 4800
+Wire Wire Line
+	5200 4800 5200 4400
+Connection ~ 5200 4200
+Wire Wire Line
+	5200 4200 5200 3800
+Connection ~ 5850 4200
+Wire Wire Line
+	5850 3800 5850 4200
+Connection ~ 5850 4800
+Wire Wire Line
+	5850 4800 5850 4400
+Connection ~ 6500 4800
+Wire Wire Line
+	6500 4800 6500 4350
+Connection ~ 7150 4200
+Wire Wire Line
+	7150 4200 7150 3750
+Connection ~ 7150 4800
+Wire Wire Line
+	7150 4800 7150 4350
+Connection ~ 7150 5400
+Wire Wire Line
+	7150 5400 7150 5000
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5000 6500 5400
+Connection ~ 5200 5400
+Wire Wire Line
+	5200 5000 5200 5400
+Connection ~ 4550 5400
+Wire Wire Line
+	4550 5000 4550 5400
+Connection ~ 3250 4200
+Wire Wire Line
+	3250 4200 3250 3800
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 4200 3900 3800
+Connection ~ 4550 4200
+Wire Wire Line
+	4550 4200 4550 3800
+Connection ~ 4550 4800
+Wire Wire Line
+	4550 4800 4550 4400
+Connection ~ 3250 4800
+Wire Wire Line
+	3250 4800 3250 4400
+Connection ~ 3900 4800
+Wire Wire Line
+	3900 4800 3900 4400
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 5000 3900 5400
+Connection ~ 3250 5400
+Wire Wire Line
+	3250 5000 3250 5400
+Connection ~ 2600 5400
+Wire Wire Line
+	2600 5000 2600 5400
+Connection ~ 2600 4800
+Wire Wire Line
+	2600 4400 2600 4800
+Connection ~ 2600 4200
+Wire Wire Line
+	2600 3800 2600 4200
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3600 3900 3200
+Connection ~ 4550 3600
+Wire Wire Line
+	4550 3600 4550 3200
+Connection ~ 5200 3600
+Wire Wire Line
+	5200 3600 5200 3200
+Connection ~ 5850 3600
+Wire Wire Line
+	5850 3600 5850 3200
+Connection ~ 6500 3600
+Wire Wire Line
+	6500 3600 6500 3200
+Connection ~ 7150 3600
+Wire Wire Line
+	7150 3600 7150 3150
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 2550
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6500 2600
+Connection ~ 5850 3000
+Wire Wire Line
+	5850 3000 5850 2600
+Connection ~ 5200 3000
+Wire Wire Line
+	5200 3000 5200 2600
+Connection ~ 4550 3000
+Wire Wire Line
+	4550 3000 4550 2600
+Connection ~ 3900 3000
+Wire Wire Line
+	3900 3000 3900 2600
+Connection ~ 3250 3000
+Wire Wire Line
+	3250 3000 3250 2600
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 2600 2600
+Wire Wire Line
+	7800 4800 7800 4350
+Wire Wire Line
+	7800 4200 7800 3750
+Wire Wire Line
+	7800 3600 7800 3150
+Connection ~ 1950 3000
+Wire Wire Line
+	1950 2600 1950 3000
+Wire Wire Line
+	7800 3000 7800 2550
+Connection ~ 7700 2800
+Wire Wire Line
+	7800 2800 7700 2800
+Connection ~ 7700 3400
+Wire Wire Line
+	7800 3400 7700 3400
+Connection ~ 7700 4000
+Wire Wire Line
+	7800 4000 7700 4000
+Connection ~ 7700 4600
+Wire Wire Line
+	7700 4600 7800 4600
+Connection ~ 7050 4600
+Wire Wire Line
+	7150 4600 7050 4600
+Connection ~ 7050 4000
+Wire Wire Line
+	7150 4000 7050 4000
+Connection ~ 7050 3400
+Wire Wire Line
+	7150 3400 7050 3400
+Connection ~ 7050 2800
+Wire Wire Line
+	7150 2800 7050 2800
+Connection ~ 6400 2850
+Wire Wire Line
+	6500 2850 6400 2850
+Connection ~ 6400 3450
+Wire Wire Line
+	6500 3450 6400 3450
+Connection ~ 6400 4600
+Wire Wire Line
+	6500 4600 6400 4600
+Connection ~ 5750 4050
+Wire Wire Line
+	5850 4050 5750 4050
+Connection ~ 5750 3450
+Wire Wire Line
+	5850 3450 5750 3450
+Connection ~ 5750 2850
+Wire Wire Line
+	5850 2850 5750 2850
+Connection ~ 5100 2850
+Wire Wire Line
+	5200 2850 5100 2850
+Connection ~ 5100 3450
+Wire Wire Line
+	5200 3450 5100 3450
+Connection ~ 5100 4050
+Wire Wire Line
+	5200 4050 5100 4050
+Connection ~ 5100 4650
+Wire Wire Line
+	5200 4650 5100 4650
+Connection ~ 4450 4650
+Wire Wire Line
+	4550 4650 4450 4650
+Connection ~ 4450 4050
+Wire Wire Line
+	4550 4050 4450 4050
+Connection ~ 4450 3450
+Wire Wire Line
+	4550 3450 4450 3450
+Connection ~ 4450 2850
+Wire Wire Line
+	4550 2850 4450 2850
+Connection ~ 3800 2850
+Wire Wire Line
+	3900 2850 3800 2850
+Connection ~ 3800 3450
+Wire Wire Line
+	3900 3450 3800 3450
+Connection ~ 3800 4050
+Wire Wire Line
+	3900 4050 3800 4050
+Connection ~ 3800 4650
+Wire Wire Line
+	3900 4650 3800 4650
+Connection ~ 3150 4650
+Wire Wire Line
+	3250 4650 3150 4650
+Connection ~ 3150 4050
+Wire Wire Line
+	3250 4050 3150 4050
+Connection ~ 3150 3450
+Wire Wire Line
+	3250 3450 3150 3450
+Connection ~ 3150 2850
+Wire Wire Line
+	3250 2850 3150 2850
+Connection ~ 2500 4700
+Wire Wire Line
+	2500 4650 2500 4700
+Wire Wire Line
+	2600 4650 2500 4650
+Connection ~ 2500 4050
+Wire Wire Line
+	2600 4050 2500 4050
+Connection ~ 2500 3450
+Wire Wire Line
+	2600 3450 2500 3450
+Connection ~ 2500 2850
+Wire Wire Line
+	2600 2850 2500 2850
+Connection ~ 1850 2850
+Wire Wire Line
+	1950 2850 1850 2850
+Wire Wire Line
+	7050 5250 7150 5250
+Wire Wire Line
+	7050 2250 7050 5250
+Wire Wire Line
+	6400 5250 6500 5250
+Wire Wire Line
+	6400 2250 6400 5250
+Wire Wire Line
+	5100 5250 5200 5250
+Wire Wire Line
+	5100 2250 5100 5250
+Wire Wire Line
+	4450 5250 4550 5250
+Wire Wire Line
+	4450 2250 4450 5250
+Wire Wire Line
+	3800 5250 3900 5250
+Wire Wire Line
+	3800 2250 3800 5250
+Wire Wire Line
+	3150 5250 3250 5250
+Wire Wire Line
+	3150 2250 3150 5250
+Wire Wire Line
+	2500 5250 2600 5250
+Wire Wire Line
+	2500 2250 2500 5250
+Wire Wire Line
+	5750 4650 5850 4650
+Wire Wire Line
+	5750 2250 5750 5250
+Wire Wire Line
+	1850 3450 1950 3450
+Wire Wire Line
+	1850 2250 1850 3450
+Wire Wire Line
+	3950 1400 3700 1400
+Wire Wire Line
+	3700 1600 3950 1600
+Wire Wire Line
+	1500 1600 1750 1600
+Wire Wire Line
+	6100 1000 5800 1000
+Wire Wire Line
+	6100 900  5800 900 
+Wire Wire Line
+	6100 800  5800 800 
+Wire Wire Line
+	6100 700  5800 700 
+Wire Wire Line
+	5150 1700 5400 1700
+Wire Wire Line
+	3950 1300 3700 1300
+Wire Wire Line
+	3950 1100 3700 1100
+Wire Wire Line
+	3950 1000 3700 1000
+Wire Wire Line
+	3950 900  3700 900 
+Wire Wire Line
+	3950 800  3700 800 
+Wire Wire Line
+	3950 1500 3700 1500
+Wire Wire Line
+	5150 700  5400 700 
+Wire Wire Line
+	5150 800  5400 800 
+Wire Wire Line
+	5150 900  5400 900 
+Wire Wire Line
+	5150 1000 5400 1000
+Wire Wire Line
+	5150 1100 5400 1100
+Wire Wire Line
+	5150 1200 5400 1200
+Wire Wire Line
+	5150 1400 5400 1400
+Wire Wire Line
+	5150 1300 5400 1300
+Wire Wire Line
+	2950 1700 3200 1700
+Wire Wire Line
+	1750 1300 1500 1300
+Wire Wire Line
+	1750 1200 1500 1200
+Wire Wire Line
+	1750 1100 1500 1100
+Wire Wire Line
+	1750 1000 1500 1000
+Wire Wire Line
+	1750 800  1500 800 
+Wire Wire Line
+	1750 700  1500 700 
+Wire Wire Line
+	1750 1500 1500 1500
+Wire Wire Line
+	2950 700  3200 700 
+Wire Wire Line
+	2950 800  3200 800 
+Wire Wire Line
+	2950 900  3200 900 
+Wire Wire Line
+	2950 1000 3200 1000
+Wire Wire Line
+	2950 1100 3200 1100
+Wire Wire Line
+	2950 1200 3200 1200
+Wire Wire Line
+	2950 1400 3200 1400
+Wire Wire Line
+	2950 1300 3200 1300
+Wire Wire Line
+	1750 1900 1500 1900
+Wire Wire Line
+	1750 1800 1500 1800
+Text Label 5400 2000 2    60   ~ 0
+VDD
+$Comp
+L CONN_01X02 P3
+U 1 1 5748A693
+P 6300 1380
+F 0 "P3" H 6300 1530 50  0000 C CNN
+F 1 "CONN_01X02" V 6400 1380 50  0000 C CNN
+F 2 "ksink_footprint:CONN_2X1" H 6300 1380 50  0001 C CNN
+F 3 "" H 6300 1380 50  0000 C CNN
+	1    6300 1380
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 5748AA60
+P 6310 1910
+F 0 "P5" H 6310 2060 50  0000 C CNN
+F 1 "CONN_01X02" V 6410 1910 50  0000 C CNN
+F 2 "ksink_footprint:CONN_2X1" H 6310 1910 50  0001 C CNN
+F 3 "" H 6310 1910 50  0000 C CNN
+	1    6310 1910
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 5748AD3A
+P 7200 1380
+F 0 "P4" H 7200 1530 50  0000 C CNN
+F 1 "CONN_01X02" V 7300 1380 50  0000 C CNN
+F 2 "ksink_footprint:CONN_2X1" H 7200 1380 50  0001 C CNN
+F 3 "" H 7200 1380 50  0000 C CNN
+	1    7200 1380
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 5748B18C
+P 7200 1910
+F 0 "P6" H 7200 2060 50  0000 C CNN
+F 1 "CONN_01X02" V 7300 1910 50  0000 C CNN
+F 2 "ksink_footprint:CONN_2X1" H 7200 1910 50  0001 C CNN
+F 3 "" H 7200 1910 50  0000 C CNN
+	1    7200 1910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1330 6700 1330
+Wire Wire Line
+	7000 1430 6700 1430
+Wire Wire Line
+	7000 1860 6700 1860
+Wire Wire Line
+	7000 1960 6700 1960
+Wire Wire Line
+	6100 1330 5800 1330
+Wire Wire Line
+	6100 1430 5800 1430
+Wire Wire Line
+	6110 1860 5800 1860
+Wire Wire Line
+	6110 1960 5800 1960
+Text Label 6700 1430 0    60   ~ 0
+A2_2
+Text Label 6700 1330 0    60   ~ 0
+A1_2
+Text Label 5800 1430 0    60   ~ 0
+A2_1
+Text Label 5800 1330 0    60   ~ 0
+A1_1
+Text Label 5800 1860 0    60   ~ 0
+VDD
+Text Label 6700 1860 0    60   ~ 0
+VDD
+$Comp
+L GND #PWR05
+U 1 1 5748DE6B
+P 5800 1960
+F 0 "#PWR05" H 5800 1710 50  0001 C CNN
+F 1 "GND" H 5800 1810 50  0000 C CNN
+F 2 "" H 5800 1960 50  0000 C CNN
+F 3 "" H 5800 1960 50  0000 C CNN
+	1    5800 1960
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5748E1C6
+P 6700 1960
+F 0 "#PWR06" H 6700 1710 50  0001 C CNN
+F 1 "GND" H 6700 1810 50  0000 C CNN
+F 2 "" H 6700 1960 50  0000 C CNN
+F 3 "" H 6700 1960 50  0000 C CNN
+	1    6700 1960
+	0    1    1    0   
+$EndComp
+NoConn ~ 5150 1500
+NoConn ~ 5150 1600
+NoConn ~ 3950 1700
+NoConn ~ 3950 2000
+NoConn ~ 1750 1700
+NoConn ~ 1750 2000
+NoConn ~ 2950 1500
+NoConn ~ 2950 1600
+Wire Wire Line
+	1750 1400 1500 1400
+Wire Wire Line
+	3950 700  3700 700 
+Text Label 3700 700  0    60   ~ 0
+NC1
+Text Label 1500 1400 0    60   ~ 0
+NC1
+$EndSCHEMATC
